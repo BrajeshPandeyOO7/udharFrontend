@@ -1,14 +1,9 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import BottomNavigation from '@mui/material/BottomNavigation';
-import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import RestoreIcon from '@mui/icons-material/Restore';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import {useStyles, HomeIcon} from '../MaterialStyle/NavigatorStyle';
+import {useStyles} from '../MaterialStyle/NavigatorStyle';
 import QrCodeScannerIcon from '@mui/icons-material/QrCodeScanner';
 import AssignmentIcon from '@mui/icons-material/Assignment';
-import { pink } from '@mui/material/colors';
 import WindowRoundedIcon from '@mui/icons-material/WindowRounded';
 
 

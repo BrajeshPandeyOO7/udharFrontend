@@ -7,24 +7,37 @@ const useStyles = makeStyles({
     menuSetting: {
         "& .MuiPaper-root": {
             width: '50%',
-            height: '100%',
+            height: '93.5%',
             marginTop: '-16px !important',
             left: 'unset !important',
             right: '0',
             borderRadius: '0 !important'
+        },
+        "& .MuiList-root": {
+            paddingTop: '0 !important'
         }
     },
     menuSettingBack: {
         display: 'flex !important',
-        justifyContent: 'space-between !important'
+        justifyContent: 'space-between !important',
+        backgroundColor: '#a01bda !important'
     },
     menuName: {
         fontSize: '25px',
-        fontWeight: '600'
+        fontWeight: '600',
+        padding: '9.5px'
     },
     menuBackIcon:{
         fontSize: '20px !important',
-        paddingTop: '2px'
+        paddingTop: '2px',
+        color: '#f8f8fa'
+    },
+    notification: {
+        "& .MuiBadge-badge": {
+            top: '3px',
+            right: '-5px',
+            backgroundColor: '#f5f60af7'
+        }
     }
 
   });
