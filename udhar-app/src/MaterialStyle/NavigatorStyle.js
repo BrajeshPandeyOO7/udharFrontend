@@ -11,7 +11,7 @@ export const useStyles = makeStyles({
         }
     },
     scannerIcon: {
-        color: '#dea427f0',
+        color: '#ae0aa1',
         fontSize: '36px !important'
     },
     homeIcon: {

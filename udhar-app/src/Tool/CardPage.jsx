@@ -2,10 +2,14 @@ import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
+import useStyles from './ToolStyle/CardStyle'
 
 const CardPage = (props) => {
+
+  const classes = useStyles();
+
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           component="img"
